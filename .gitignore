@@ -1,4 +1,4 @@
 .ipynb_checkpoints
-./*.csv
-./GSC-Dataset/**/*.*
-./HumanObserved-Dataset/**/*.*
+*.csv
+GSC-Dataset/**
+HumanObserved-Dataset/**
