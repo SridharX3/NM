@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-# import tensorflow as tf
+import tensorflow as tf
 
 def get_train_val_test_split(X):
     print("Splitting data into training, validation and test sets")
