@@ -62,7 +62,7 @@ def feature_subtraction(inputs, features):
 
 
 def process_data(dataset_type, feature_extraction_type):
-
+    print(dataset_type, feature_extraction_type)
     if dataset_type == "human":
         csv_features_path = "./HumanObserved-Dataset/HumanObserved-Features-Data/HumanObserved-Features-Data.csv"
         pair_csv_paths = ["./HumanObserved-Dataset/HumanObserved-Features-Data/same_pairs.csv", "./HumanObserved-Dataset/HumanObserved-Features-Data/diffn_pairs.csv"]
@@ -77,8 +77,9 @@ def process_data(dataset_type, feature_extraction_type):
 
     return processed_data
 
+# processed_data = process_data("human", "subtraction")
+# processed_data = process_data("human", "concatenation")
+
 # processed_data = process_data("gsc", "concatenation")
 # processed_data = process_data("gsc", "subtraction")
 
-processed_data = process_data("human", "subtraction")
-# processed_data = process_data("human", "concatenation")
